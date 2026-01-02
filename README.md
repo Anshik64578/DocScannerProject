@@ -1,9 +1,7 @@
-# DocScannerProject
-A React Native document scanner app that lets users scan documents using their phone camera, crop them, convert scans into PDF files, and upload them to a Node.js backend. The backend stores document metadata in MongoDB. The project follows a clean architecture and can be extended with features like auto edge detection and filters.
 # Document Scanner with Auto-Cropping and PDF Export
 
 ## Description
-A React Native–based document scanner app that lets users capture documents using their phone’s camera, crop them as needed, export the scans as PDF files, and upload them to a Node.js backend where the document details are securely stored in MongoDB.
+A React Native document scanner application that captures documents using the device camera, allows cropping, exports scanned documents as PDF, and uploads them to a Node.js backend where document metadata is stored in MongoDB.
 
 ## Technologies Used
 - React Native (Expo)
@@ -37,7 +35,9 @@ DocScannerProject/
 Uploads a PDF file and stores its metadata in MongoDB.
 
 ## Auto-Cropping & Perspective Correction
-At the moment, the app supports manual cropping using the camera’s built-in crop functionality. Automatic edge detection and perspective correction can be added in future versions using OpenCV or similar image-processing libraries.
+The current implementation supports manual cropping using camera crop functionality.  
+Auto edge detection and perspective correction can be implemented using OpenCV or similar libraries as part of future enhancements.
+
 ## APK Generation
 APK can be generated using Android Studio or CI/CD pipelines.  
 For this assessment, application functionality and architecture are demonstrated through the codebase.
